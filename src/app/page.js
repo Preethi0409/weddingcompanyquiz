@@ -472,6 +472,18 @@ export default function QuizApp() {
       <style jsx>{`
         @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Caveat+Brush&display=swap");
       `}</style>
+      <footer className="absolute bottom-4 left-0 right-0 text-center">
+        <p
+          style={{
+            fontFamily: "Inter, sans-serif",
+            fontSize: "14px",
+            color: "#15313D",
+            opacity: 0.7,
+          }}
+        >
+          Preethi MS - RA2211031010056
+        </p>
+      </footer>
     </div>
   );
 }
